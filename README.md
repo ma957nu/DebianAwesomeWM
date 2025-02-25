@@ -16,6 +16,9 @@
 
 ## 🔥 Information
 
+
+![ss](./ss/segunda.png)
+
 |    Distro    |                            [Debian 12](https://debian.org/)                            |
 | :----------: | :------------------------------------------------------------------------------------: |
 |      WM      |                   [AwesomeWM](https://github.com/awesomeWM/awesome)                    |
@@ -30,17 +33,13 @@
 
 ## 🖼️ Gallery
 
-![ss](./galery/ShoT_2023-09-03-04-28-55_1366x768.png)
+![ss](./ss/tercera.png)
 
-![ss](./galery/ShoT_2023-09-03-04-28-55_1366x768.png)
+![ss](./ss/cuarta.png)
 
-![ss](./galery/ShoT_2023-09-03-04-28-55_1366x768.png)
+![ss](./ss/primera.png)
 
-![ss](./galery/ShoT_2023-09-03-04-28-55_1366x768.png)
 
-![ss](./galery/ShoT_2023-09-03-04-28-55_1366x768.png)
-
-![ss](./galery/ShoT_2023-09-03-04-28-55_1366x768.png)
 
 ## 💣 Setup Installation
 
