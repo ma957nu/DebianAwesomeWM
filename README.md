@@ -37,7 +37,7 @@
 
 ![ss](./ss/cuarta.png)
 
-![ss](./ss/primera.png)
+![ss](./ss/Primera.png)
 
 
 
