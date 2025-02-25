@@ -70,7 +70,7 @@ awesome build-essential cmake make gcc lua5.2 liblua5.3-dev lua-busted lua-disco
 
 ```sh
 cd 
-sudo dpkg -i awesome-4.3.0.0\~git1606-g0e5fc457-dirty-Linux.deb
+sudo dpkg -i awesome-4.3.0.0~git1611-gaa8c7c6e-Linux.deb
 sudo cp awesome.desktop /usr/share/xsessions/
 sudo chmod +x /usr/share/xsessions/awesome.desktop
 ```
@@ -90,10 +90,20 @@ sudo apt install ./*.deb
 5.- **Other dependecies only works for Debian 12/Ubuntu and based distro, for other distro you can search same packages**
 
 ```sh
-alacritty brightnessctl dunst rofi jq policykit-1-gnome playerctl mpd ncmpcpp mpc picom xdotool ueberzug libwebp-dev webp-pixbuf-loader zsh zsh-autosuggestions zsh-syntax-highlighting thunar thunar-volman thunar-archive-plugin gvfs gvfs-backends engrampa suckless-tools xdo redshift xautolock fzf ytfzf yt-dlp gawk tumbler gpick xdg-utils python-is-python3 python3-gi gir1.2-nm-1.0 duf libglib2.0-bin btop ncdu bat exa wmctrl acpid xclip scrot mpdris2 libplayerctl-dev gir1.2-playerctl-2.0 lxappearance bc
+kitty brightnessctl dunst rofi jq policykit-1-gnome playerctl mpd ncmpcpp mpc picom xdotool ueberzug libwebp-dev webp-pixbuf-loader zsh zsh-autosuggestions zsh-syntax-highlighting thunar thunar-volman thunar-archive-plugin gvfs gvfs-backends engrampa suckless-tools xdo redshift xautolock fzf ytfzf yt-dlp gawk tumbler gpick xdg-utils python-is-python3 python3-gi gir1.2-nm-1.0 duf libglib2.0-bin btop ncdu bat exa wmctrl acpid xclip scrot mpdris2 libplayerctl-dev gir1.2-playerctl-2.0 lxappearance bc
 ```
 
 ---
+
+- **For zsh
+In the .zshrc file you have to change line 47 and put the home of your user
+
+[Zsh-plugin-sudo](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/sudo/sudo.plugin.zsh)
+
+Copy the content from this GitHub and paste it into /usr/share/zsh-sudo/sudo.plugin.zsh
+
+**If you don't have the zsh-sudo directory, create it**
+
 
 - **For Neovim**
 
@@ -101,10 +111,11 @@ Because Neovim in Debian 12 to old, you can install neovim from folder app suppo
 
 - **For Fonts**
 
-Extract fonts.zip in ~/.local/share/fonts than run fc-cache -fv in terminal
+Extract fonts.zip and hack.zip in ~/.local/share/fonts than run fc-cache -fv in terminal
 
 ```sh
 unzip fonts.zip -d ~/.local/share/fonts
+unzip Hack.zip -d ~/.local/share/fonts
 fc-cache -fv
 ```
 
