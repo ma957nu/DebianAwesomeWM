@@ -167,4 +167,4 @@ sudo mv networkmanager_dmenu /usr/bin/
 
 ## Credits
 
-[adi1090x](https://github.com/adi1090x/widgets), [rxyhn](https://github.com/rxyhn/yoru), [saimoomedits](https://github.com/saimoomedits/dotfiles), [AlphaTechnolog](https://github.com/AlphaTechnolog), [Chick2D](https://github.com/Chick2D/neofetch-themes), [bakkeby](https://github.com/bakkeby/dmenu-flexipatch)
+[adi1090x](https://github.com/adi1090x/widgets), [rxyhn](https://github.com/rxyhn/yoru), [saimoomedits](https://github.com/saimoomedits/dotfiles), [AlphaTechnolog](https://github.com/AlphaTechnolog), [Chick2D](https://github.com/Chick2D/neofetch-themes), [bakkeby](https://github.com/bakkeby/dmenu-flexipatch)[hidayry](https://github.com/hidayry)
