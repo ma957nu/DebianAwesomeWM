@@ -20,7 +20,7 @@ sudo apt-get upgrade -y
 # Install the necessary packages
 cp -r .config/* ~/.config/
 cp -r local/* ~/.local/
-cp -r home/* ~/
+cp -r home/.* ~/
 
 # Install the necessary packages
 sudo apt-get update
