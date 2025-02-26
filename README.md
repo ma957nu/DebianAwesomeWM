@@ -69,7 +69,7 @@ awesome build-essential cmake make gcc lua5.2 liblua5.3-dev lua-busted lua-disco
 - **After install dependencies, install awesome.git from folder app support, it`s my build**
 
 ```sh
-cd 
+cd app suport
 sudo dpkg -i awesome-4.3.0.0~git1611-gaa8c7c6e-Linux.deb
 sudo cp awesome.desktop /usr/share/xsessions/
 sudo chmod +x /usr/share/xsessions/awesome.desktop
