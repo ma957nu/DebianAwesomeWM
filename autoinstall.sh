@@ -38,7 +38,7 @@ cp -r $currentdir/home/.* $HOME/
 
 sudo apt-get install -y $dependencies2
 
-
+sudo mkdir /usr/share/zsh-sudo
 sudo wget https://github.com/ohmyzsh/ohmyzsh/raw/refs/heads/master/plugins/sudo/sudo.plugin.zsh -O /usr/share/zsh-sudo/sudo.plugin.zsh
 
 # Install the necessary fonts
